@@ -1,0 +1,107 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+   body {
+        background-color: lightblue;
+        font-family: italic;
+    }
+
+    .header {
+        width: 64%;
+        margin: 50px auto 0px;
+        color: lavender;
+        background: teal;
+        text-align: center;
+        border-radius: 10px 10px 0px 0px;
+        padding: 20px;
+        margin-top: 20px;
+    }
+
+    ::placeholder {
+        color: black;
+    }
+
+    select {
+        margin-right: 100px;
+    }
+
+    .a {
+        padding: 6px;
+        margin: 20px 10px;
+        box-sizing: border-box;
+        font-size: medium;
+        font-family: Geneva;
+        border: 1px solid black;
+        text-align: center;
+        width: 30%;
+    }
+
+    .b {
+        padding: 6px;
+        margin: 20px 10px;
+        box-sizing: border-box;
+        font-size: medium;
+        font-family: Geneva;
+        border: 1px solid black;
+        text-align: center;
+        width: 30%;
+    }
+
+    .c {
+        padding: 6px;
+        margin: 20px 10px;
+        font-size: medium;
+        font-family: Geneva;
+        border: 1px solid black;
+        text-align: left;
+        width: 94%;
+    }
+
+    .d {
+        width: 150px;
+        color: white;
+        background-color: rgb(14, 154, 14);
+        border-radius: 3px;
+        box-shadow: 2px 2px black;
+        border: 0px;
+        margin: 20px 350px;
+        font-size: large;
+        cursor: pointer;
+        padding: 6px;
+    }
+
+    form {
+        margin: 0 auto;
+        padding: 20px;
+        width: 64%;
+        background-color: whitesmoke;
+        border-radius: 0px 0px 10px 10px;
+    }
+    .dashboardlink {
+        font-size: 25px;
+        font-weight: bold;
+        width:200px;
+        padding: 3px;
+        margin: 10px 10px;
+        background-color:rgba(0, 0, 0, 0.6);
+        border-radius: 10px;
+        text-align: center;   
+    }
+    
+    .dashboardlink a {
+        color:white;
+        text-decoration: none;
+    }
+    @media (max-width:991px) {
+        form {
+            width: 90%;
+        } 
+        .header {
+            width: 90%;
+        }
+        .a,.b,.c{
+            width: 80%;
+            text-align: left;
+        }
+    }
